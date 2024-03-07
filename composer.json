@@ -1,0 +1,49 @@
+{
+  "name": "ispahbod/laravel-connect",
+  "description": "laravel-connect for Laravel Framework",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "framework",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Hamed Hadi",
+      "email": "hamed.hadi1010@gmail.com",
+      "homepage": "https://github.com/ispahbod",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/ispahbod/laravel-connect",
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": ">=6",
+    "symfony/dom-crawler": "^6.3",
+    "fabpot/goutte": "^4.0",
+    "guzzlehttp/guzzle": "^7.8",
+    "guzzlehttp/promises": "^2.0",
+    "symfony/stopwatch": "^6.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ispahbod\\Connect\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ispahbod\\Connect\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "minimum-stability": "beta"
+}
